@@ -35,7 +35,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
-  padding: 156px;
+  padding: 16px;
 }
 
 /* "WEB" */
@@ -53,6 +53,8 @@ body {
 /* Navigation */
 .nav-list {
   list-style: none;
+  display: flex;
+  gap: 76px;
 }
 
 .nav-item a {
