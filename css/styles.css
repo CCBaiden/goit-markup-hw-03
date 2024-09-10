@@ -58,10 +58,9 @@ body {
 }
 
 .nav-item a {
-  margin-left: 76px;
   text-decoration: none;
   color: #2e2f42;
-  font-weight: 400;
+  font-weight: 400px;
 }
 
 .nav-item a:hover {
@@ -82,26 +81,38 @@ body {
   color: #404bbf;
 }
 
+section {
+  padding: 0 0 96px;
+}
+
+.section {
+  background-color: #ffffff;
+  width: 1154px;
+  margin: 0 auto;
+}
+
 /* Hero Section */
 .hero {
   height: 600px;
   background-color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .hero-title {
-  font-family: "Roboto";
+ font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  position: absolute;
-  width: 496px;
-  height: 120px;
-  left: 472px;
-  top: 188px;
   color: #ffffff;
+  margin: 0;
+  width: 496px;
 }
 
 /* Hero Section */
@@ -109,16 +120,15 @@ body {
   padding: 16px 32px;
   gap: 10px;
   margin-top: 64px;
-  margin-bottom: 292px;
-  position: absolute;
+  display: block;
   width: 169px;
   height: 56px;
-  left: 636px;
-  top: 356px;
   border-radius: 4px;
   background: #4d5ae5;
   cursor: pointer;
   color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn:hover {
