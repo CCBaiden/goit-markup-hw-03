@@ -177,23 +177,38 @@ section {
 }
 
 /* Team Section */
-.team {
+.team.section {
   background-color: #f4f4fd;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  margin-left: 156px;
+  margin-right: 156px;
 }
 
 .section-title {
   text-align: center;
   font-size: 28px;
   margin-bottom: 72px;
-  padding: 120px 639px;
 }
 
 .team-list {
   list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
 }
 
 .team-member {
   text-align: center;
+   flex: 1 1 264px;
+  max-width: 264px;
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
 }
 
 .team-member-name {
