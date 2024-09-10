@@ -103,7 +103,7 @@ section {
 }
 
 .hero-title {
- font-family: "Roboto";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -137,30 +137,43 @@ section {
 
 /* Features Section */
 .features {
-  padding: 156px 96px;
   background-color: #ffffff;
   margin-bottom: 96px;
 }
 
 .features-list {
   list-style: none;
+  padding: 0px;
+  display: flex; /* Flexbox kullanımı */
+  gap: 24px; /* Özellikler arasındaki boşluğu ayarlamak için */
+  justify-content: center; /* Ortalamak için */
+  width: 1128px;
+  height: 104px;
 }
 
 .feature-item {
-  width: 264px;
+  max-width: 264px;
   height: 104px;
   padding: 24px;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .feature-title {
-  font-size: 36px;
+  font-size: 20px;
   margin-bottom: 8px;
   color: #2e2f42;
+  text-align: left;
+  width: 264px;
+  height: 24px;
 }
 
 .feature-description {
   font-size: 16px;
   color: #434455;
+  text-align: left;
+  width: 264px;
+  height: 72px;
 }
 
 /* Team Section */
