@@ -8,6 +8,9 @@ body {
   color: #434455;
   background-color: #ffffff;
   font-style: normal;
+  margin: 0 auto;
+  padding: 0px;
+  width: 1440px;
 }
 
 /* Header */
@@ -90,7 +93,6 @@ body {
   top: 188px;
   color: #ffffff;
 }
-
 
 /* Hero Section */
 .btn {
