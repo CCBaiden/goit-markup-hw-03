@@ -257,14 +257,18 @@ section {
 
 /* Footer */
 .footer {
-  padding: 20px 40px;
+  padding-left: 156px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #2d2f36;
   color: #ffffff;
+  width: 1154px;
+  margin: 0 auto;
 }
 
 .footer-content {
   text-align: left;
-  max-width: 300px;
+   width: 264px;
 }
 
 .footer-content a {
