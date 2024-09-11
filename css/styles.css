@@ -87,15 +87,29 @@ img {
   font-weight: bold;
 }
 
+.contact-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-item {
+  display: inline-block;
+}
+
 .contact-info a {
   color: #434455;
   text-decoration: none;
   font-style: normal;
+  padding: 0;
 }
 
 .contact-info a:hover {
   color: #404bbf;
 }
+
 
 section {
   padding: 0 0 96px;
