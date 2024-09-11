@@ -62,24 +62,24 @@ img {
 }
 
 /* Navigation */
-.main-nav {
+.main-navigation {
   display: flex;
   align-items: center;
 }
 
-.nav-list {
+.navigation-list {
   list-style: none;
   display: flex;
   gap: 40px;
 }
 
-.nav-item a {
+.navigation-item a {
   text-decoration: none;
   color: #2e2f42;
   font-weight: 400px;
 }
 
-.nav-item a:hover {
+.navigation-item a:hover {
   color: #404bbf;
 }
 
