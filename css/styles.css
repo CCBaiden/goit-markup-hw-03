@@ -67,19 +67,19 @@ img {
   align-items: center;
 }
 
-.navigation-list {
+.nav-list-items {
   list-style: none;
   display: flex;
   gap: 40px;
 }
 
-.navigation-item a {
+.nav-list-item a {
   text-decoration: none;
   color: #2e2f42;
-  font-weight: 400px;
+  font-weight: 400;
 }
 
-.navigation-item a:hover {
+.nav-list-item a:hover {
   color: #404bbf;
 }
 
