@@ -13,6 +13,12 @@ body {
   width: 1440px;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Header */
 .header {
   background-color: #ffffff;
