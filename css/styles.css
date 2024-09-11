@@ -59,6 +59,11 @@ img {
 }
 
 /* Navigation */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 .nav-list {
   list-style: none;
   display: flex;
