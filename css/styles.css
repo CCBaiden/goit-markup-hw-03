@@ -225,6 +225,12 @@ section {
   text-align: center;
   flex: 1 1 264px;
   max-width: 264px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-member-info {
+  padding: 32px 0;
 }
 
 .team-member img {
@@ -236,16 +242,20 @@ section {
   font-size: 20px;
   margin-top: 15px;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-member-role {
   font-size: 16px;
   color: #434455;
+  text-align: center;
 }
 
 /* Portfolio Section */
-.portfolio.section {
+.portfolio-section {
   background-color: #ffffff;
+  padding: 120px 0;
 }
 
 .portfolio-list {
@@ -258,6 +268,7 @@ section {
   left: 156px;
   top: 1868px;
   margin: 0 auto;
+  row-gap: 48px;
 }
 
 .portfolio-item {
@@ -265,6 +276,13 @@ section {
   margin-bottom: 48px;
   box-sizing: border-box;
   border-bottom: 2px solid #e7e9fc;
+  width: calc((100% - 72px) / 4);
+}
+
+.portfolio-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-title {
@@ -281,12 +299,12 @@ section {
 /* Footer */
 .footer {
   padding-left: 156px;
-  padding-top: 100px;
   padding-bottom: 100px;
   background-color: #2d2f36;
   color: #ffffff;
   width: 1154px;
   margin: 0 auto;
+  padding: 100px 0;
 }
 
 .footer-content {
