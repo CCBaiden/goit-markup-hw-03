@@ -17,7 +17,7 @@ body {
 .header {
   background-color: #ffffff;
   margin-bottom: 24px;
-  border-bottom: 1px solid #FFFFFF
+  border-bottom: 1px solid #ffffff;
 }
 
 .header .container {
@@ -146,8 +146,8 @@ section {
   list-style: none;
   padding: 0px;
   display: flex;
-  gap: 24px; 
-  justify-content: center; 
+  gap: 24px;
+  justify-content: center;
   width: 1128px;
   height: 104px;
 }
@@ -231,18 +231,20 @@ section {
 .portfolio-list {
   list-style: none;
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   gap: 24px;
   max-width: 1128px;
   height: 1000px;
   left: 156px;
   top: 1868px;
+  margin: 0 auto;
 }
 
 .portfolio-item {
-  width:30%;
+  width: 30%;
   margin-bottom: 48px;
-  box-sizing:content-box
+  box-sizing:border-box;
+  border-bottom: 2px solid #e7e9fc;
 }
 
 .portfolio-title {
@@ -269,7 +271,7 @@ section {
 
 .footer-content {
   text-align: left;
-   width: 264px;
+  width: 264px;
 }
 
 .footer-content a {
