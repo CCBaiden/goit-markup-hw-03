@@ -201,8 +201,6 @@ section {
   background-color: #f4f4fd;
   padding-top: 96px;
   padding-bottom: 96px;
-  margin-left: 156px;
-  margin-right: 156px;
   padding: 120px 0;
 }
 
@@ -272,10 +270,9 @@ section {
 }
 
 .portfolio-item {
-  width: 30%;
   margin-bottom: 48px;
   box-sizing: border-box;
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 3);
 }
 
 .portfolio-info {
@@ -301,7 +298,6 @@ section {
   padding-bottom: 100px;
   background-color: #2d2f36;
   color: #ffffff;
-  width: 1154px;
   margin: 0 auto;
   padding: 100px 0;
 }
