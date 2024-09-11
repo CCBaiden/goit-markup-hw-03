@@ -57,6 +57,9 @@ img {
   color: #2e2f42;
   width: 71px;
 }
+.logo-link {
+  margin-right: 76px;
+}
 
 /* Navigation */
 .main-nav {
