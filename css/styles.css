@@ -244,6 +244,7 @@ section {
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
+  margin: 0;
 }
 
 .team-member {
