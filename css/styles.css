@@ -19,6 +19,18 @@ img {
   height: auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 /* Header */
 .header {
   background-color: #ffffff;
@@ -109,7 +121,6 @@ img {
 .contact-info a:hover {
   color: #404bbf;
 }
-
 
 section {
   padding: 0 0 96px;
@@ -246,8 +257,7 @@ section {
   padding: 32px 0;
   box-sizing: border-box;
   border: 1px solid #e7e9fc;
-  background-color: #FFFFFF;
-  
+  background-color: #ffffff;
 }
 
 .team-member img {
