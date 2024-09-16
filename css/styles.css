@@ -36,16 +36,22 @@ a {
   text-decoration: none;
 }
 /* Header Styles */
-.header {
+
+header {
   border-bottom: 1px solid #e7e9fc;
+  gap: 30px;
+  height: 72px;
+
 }
 
-.header-container {
+.container-header {
   display: flex;
-  justify-content: space-between;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
   align-items: center;
+  justify-content: space-between;
 }
-
 .header-nav {
   display: flex;
   align-items: center;
@@ -234,7 +240,7 @@ a {
 }
 
 .section-four {
-  padding-top: 120px;
+  padding-top: 120px 0;
   padding-bottom: 120px;
 }
 
