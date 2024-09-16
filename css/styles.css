@@ -107,7 +107,7 @@ a {
 .contact-link:focus {
   color: #404bbf;
 }
-.section-hero {
+.section-one {
   background-color: #2e2f42;
   padding: 188px 0;
 }
@@ -145,11 +145,11 @@ a {
 .hero-button:focus {
   background-color: #404bbf;
 }
-.section-solutions {
+.section-two {
   padding: 120px 0;
 }
 
-.solutions-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -162,12 +162,12 @@ a {
   overflow: hidden;
 }
 
-.solutions-ul {
+.section-two-cardset {
   display: flex;
   gap: 24px;
 }
 
-.feature {
+.cardset-two-item {
   max-width: 264px;
 }
 
@@ -186,7 +186,7 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.section-team {
+.our-team-cardset {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
@@ -201,12 +201,12 @@ a {
   margin-bottom: 72px;
 }
 
-.team-ul {
+.our-team-cardset {
   display: flex;
   gap: 24px;
 }
 
-.member {
+.ourteam-item {
   background-color: #ffffff;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -225,7 +225,7 @@ a {
   margin-bottom: 8px;
 }
 
-.job {
+.ourteam-info {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -233,7 +233,7 @@ a {
   color: #434455;
 }
 
-.section-portfolio {
+.section-four {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -248,7 +248,7 @@ a {
   margin-bottom: 72px;
 }
 
-.portfolio-ul {
+.our-portofilo-cardset {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
