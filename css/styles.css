@@ -303,6 +303,10 @@ header {
   padding: 100px 0;
 }
 
+.studio{
+  color:#F4F4FD;
+}
+
 .footer-logo {
   display: inline-block;
   font-family: "Raleway", sans-serif;
@@ -315,9 +319,6 @@ header {
   margin-bottom: 16px;
 }
 
-.footer-studio {
-  color: #f4f4fd;
-}
 
 .footer-description {
   font-size: 16px;
