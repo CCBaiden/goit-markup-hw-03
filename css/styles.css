@@ -41,7 +41,6 @@ header {
   border-bottom: 1px solid #e7e9fc;
   gap: 30px;
   height: 72px;
-
 }
 
 .container-header {
@@ -174,7 +173,8 @@ header {
 }
 
 .cardset-two-item {
-  max-width: 264px;
+  list-style-type: none;
+  width: calc((100% - 72px) / 4);
 }
 
 .solutions-heading {
@@ -192,7 +192,7 @@ header {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.our-team-cardset {
+.section-our-team{
   background-color: #f4f4fd;
   padding: 120px 0;
 }
@@ -207,9 +207,11 @@ header {
   margin-bottom: 72px;
 }
 
-.our-team-cardset {
+.our-team-cardset{
   display: flex;
   gap: 24px;
+  align-items: center;
+  text-align: center;
 }
 
 .ourteam-item {
@@ -217,8 +219,7 @@ header {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   border-radius: 0 0 4px 4px;
-  width: 264px;
-  height: 380px;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-subheading {
@@ -245,13 +246,30 @@ header {
 }
 
 .portfolio-heading {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.portfolio-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.portfolio-app {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .our-portofilo-cardset {
@@ -259,6 +277,7 @@ header {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  margin-bottom: 120px;
 }
 
 .portfolio-case {
@@ -312,11 +331,4 @@ header {
   padding: 32px 0;
 }
 
-.portfolio-app {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
+
